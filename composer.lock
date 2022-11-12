@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "203a940c954a048418ce69d4c6fb0bc1",
+    "content-hash": "23ca4405037bc5597c083a56d4391a4e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1663,6 +1663,50 @@
                 "source": "https://github.com/drupal/core-recommended/tree/9.4.5"
             },
             "time": "2022-08-03T16:33:29+00:00"
+        },
+        {
+            "name": "drupal/edux",
+            "version": "8.0.11",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/edux.git",
+                "reference": "8.0.11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/edux-8.0.11.zip",
+                "reference": "8.0.11",
+                "shasum": "caa0c5783114ffcd1ce3b3d7ebd7c85db126880e"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "8.0.11",
+                    "datestamp": "1665040730",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "ravis",
+                    "homepage": "https://www.drupal.org/user/79351"
+                }
+            ],
+            "description": "Theme For Educational Institutes by <a href=\"https://www.drupar.com/\" target=\"_blank\">Drupar.com</a>",
+            "homepage": "https://www.drupal.org/project/edux",
+            "support": {
+                "source": "https://git.drupalcode.org/project/edux"
+            }
         },
         {
             "name": "drupal/tara",

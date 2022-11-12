@@ -23,7 +23,8 @@
         "drush/drush": "^11 || ^12",
         "drupal/tara": "^9.1",
         "drupal/topplus_lite": "^1.1",
-        "drupal/breeze": "^3.0"
+        "drupal/breeze": "^3.0",
+        "drupal/edux": "^8.0"
     },
     "require-dev": {
         "drupal/core-dev": "^9.2"
