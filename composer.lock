@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "23ca4405037bc5597c083a56d4391a4e",
+    "content-hash": "fc801fbe06d91a960777d4a1e6854418",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1750,6 +1750,50 @@
             "homepage": "https://www.drupal.org/project/tara",
             "support": {
                 "source": "https://git.drupalcode.org/project/tara"
+            }
+        },
+        {
+            "name": "drupal/thex",
+            "version": "9.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/thex.git",
+                "reference": "9.2.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/thex-9.2.0.zip",
+                "reference": "9.2.0",
+                "shasum": "e117f6ed431a65ab7160c64a7bcbdd3d3de6ddb3"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "9.2.0",
+                    "datestamp": "1661789116",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "ravis",
+                    "homepage": "https://www.drupal.org/user/79351"
+                }
+            ],
+            "description": "<p>A clean, light weight and mobile optimized base theme for Drupal 9 and 10 by <a href=\"https://www.drupar.com/\" target=\"_blank\">Drupar.com</a><br /><a href=\"https://www.drupar.com/theme/thex\" target=\"_blank\">Theme Page</a> | <a href=\"https://www.drupar.com/doc/thex\" target=\"_blank\">Theme User Guide</a> | <a href=\"https://www.drupal.org/project/thex\" target=\"_blank\">Project Page</a></p>",
+            "homepage": "https://www.drupal.org/project/thex",
+            "support": {
+                "source": "https://git.drupalcode.org/project/thex"
             }
         },
         {
