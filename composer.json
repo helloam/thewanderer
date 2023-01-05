@@ -25,7 +25,9 @@
         "drupal/topplus_lite": "^1.1",
         "drupal/breeze": "^3.0",
         "drupal/edux": "^8.0",
-        "drupal/thex": "^9.2"
+        "drupal/thex": "^9.2",
+        "drupal/devel": "^5.1",
+        "drupal/redirect": "^1.8"
     },
     "require-dev": {
         "drupal/core-dev": "^9.2"
@@ -86,7 +88,7 @@
         "preferred-install": "dist",
         "sort-packages": false,
         "platform": {
-            "php": "7.4"
+            "php": "8.1.13"
         },
         "allow-plugins": {
             "composer/installers": true,
