@@ -26,7 +26,7 @@
         "drupal/breeze": "^3.0",
         "drupal/edux": "^8.0",
         "drupal/thex": "^9.2",
-        "drupal/devel": "^5.1",
+        "drupal/devel": "^5.0",
         "drupal/redirect": "^1.8"
     },
     "require-dev": {
