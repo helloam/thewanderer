@@ -2,3 +2,11 @@
 # For more information, see: https://pantheon.io/docs/pantheon-yml/
 api_version: 1
 web_docroot: true
+
+workflows:
+  # Create a New Relic Monitor when deploying to live.
+  deploy:
+    after:
+      - type: webphp
+        description: Log to New Relic
+        script: private/scripts/new_relic_monitor.php
